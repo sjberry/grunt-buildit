@@ -1,6 +1,6 @@
 {
   "name": "grunt-amdsync",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A grunt task for converting CommonJS code to AMD-compliant bundles.",
   "author": "Steven Berry <steven@sberry.me> (http://www.sberry.me/)",
   "keywords": [
