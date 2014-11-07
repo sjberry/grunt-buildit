@@ -22,7 +22,7 @@
     "url": "https://github.com/sjberry/grunt-amdsync.git"
   },
   "dependencies": {
-    "amdsync": "^0.2.1"
+    "amdsync": "^0.3.0"
   },
   "peerDependencies": {
     "grunt": "^0.4.5"
