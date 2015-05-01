@@ -1,7 +1,8 @@
-var amdsync = require('amdsync');
+var buildit = require('buildit');
+
 
 function task(grunt) {
-	grunt.registerMultiTask('amdsync', 'A grunt task for converting CommonJS code to AMD-compliant bundles.', function() {
+	grunt.registerMultiTask('buildit', 'A grunt task for converting CommonJS code to AMD-compliant bundles.', function() {
 		var data, dest, files, options, out;
 
 		options = this.options();
@@ -10,7 +11,7 @@ function task(grunt) {
 		files = data.src || data.files || [];
 		dest = data.out || data.dest;
 
-		out = amdsync(files, options);
+		out = buildit(files, options);
 
 		if (dest) {
 			grunt.file.write(dest, out);

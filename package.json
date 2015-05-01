@@ -1,6 +1,6 @@
 {
-  "name": "grunt-amdsync",
-  "version": "0.1.2",
+  "name": "grunt-buildit",
+  "version": "0.2.0",
   "description": "A grunt task for converting CommonJS code to AMD-compliant bundles.",
   "author": "Steven Berry <steven@sberry.me> (http://www.sberry.me/)",
   "keywords": [
@@ -14,15 +14,15 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/sberry/grunt-amdsync/blob/master/LICENSE"
+      "url": "https://github.com/sberry/grunt-buildit/blob/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sjberry/grunt-amdsync.git"
+    "url": "https://github.com/sjberry/grunt-buildit.git"
   },
   "dependencies": {
-    "amdsync": "^0.3.0"
+    "buildit": "^1.0.0"
   },
   "peerDependencies": {
     "grunt": "^0.4.5"
