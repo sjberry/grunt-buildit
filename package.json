@@ -1,6 +1,6 @@
 {
   "name": "grunt-buildit",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A grunt task for converting CommonJS code to AMD-compliant bundles.",
   "author": "Steven Berry <steven@sberry.me> (http://www.sberry.me/)",
   "keywords": [
@@ -22,7 +22,7 @@
     "url": "https://github.com/sjberry/grunt-buildit.git"
   },
   "dependencies": {
-    "buildit": "1.2.0",
+    "buildit": "1.2.1",
     "grunt": "^0.4.5"
   }
 }
